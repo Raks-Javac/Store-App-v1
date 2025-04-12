@@ -5,8 +5,8 @@ djangorestframework==3.14.0
 mysql-connector-python==8.1.0
 
 # Development/profiling tools (remove these for production!)
-# django-debug-toolbar==4.2.0
-# django-silk==5.0.0  # Remove from production!
+django-debug-toolbar==4.2.0
+django-silk==5.0.0
 
 # API extensions
 drf-nested-routers==0.93.4
@@ -36,3 +36,5 @@ drf-spectacular-sidecar==2023.9.1
 # pytest-watch
 # model-bakery
 # locust
+
+

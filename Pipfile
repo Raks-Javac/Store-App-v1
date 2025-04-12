@@ -27,6 +27,7 @@ gunicorn = "*"
 drf-yasg = "*"
 drf-spectacular = "*"
 drf-spectacular-sidecar = "*"
+dj-database-url = "*"
 
 [dev-packages]
 autopep8 = "*"

@@ -5,6 +5,11 @@ from .common import *
 from .common import *
 import os
 
+import dj_database_url
+from dotenv import load_dotenv
+load_dotenv()
+
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -30,16 +35,13 @@ SECRET_KEY = os.environ['SECRET_KEY']
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.getenv('PGDATABASE'),
-        'USER': os.getenv('PGUSER'),
-        'PASSWORD': os.getenv('PGPASSWORD'),
-        'HOST': os.getenv('PGHOST'),
-        'PORT': os.getenv('PGPORT'),
-        'OPTIONS': {
-            'sslmode': 'require',  # Similar to MySQL's ssl_mode
-        }
+        'NAME': 'storefront',
+        'USER': 'postgres',
+        'PASSWORD': 'rjcs_javac',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
-}
+    }
 
 REDIS_URL = os.environ['REDIS_URL']
 

@@ -27,6 +27,6 @@ services:
     plan: free
 
 databases:
-  - name: storefront-db
+  - name: storefront3
     plan: free
-    engine: postgres
+    engine: mysql

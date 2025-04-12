@@ -17,18 +17,61 @@ SECRET_KEY = os.environ['SECRET_KEY']
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
+# DATABASES = {
+#     'default':{
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': os.environ['MYSQL_DATABASE'],
+#         'HOST': os.environ['MYSQLHOST'],
+#         'USER': os.environ['MYSQLUSER'],
+#         'PASSWORD': os.environ['MYSQLPASSWORD'],
+#         'PORT': os.environ['MYSQLPORT'],  # Optional if default
+#     }
+# }
+
 DATABASES = {
-    'default':dj_database_url.config()
+   'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': os.getenv('MYSQLDATABASE'),
+        'USER': os.getenv('MYSQLUSER'),
+        'PASSWORD': os.getenv('MYSQLPASSWORD'),
+        'HOST': os.getenv('MYSQLHOST'),
+        'PORT': os.getenv('MYSQLPORT'),
+        'OPTIONS': {
+            'charset': 'utf8mb4',
+            'ssl_mode': 'REQUIRED'  # For Railway's MySQL
+        }
+    }
 }
 
-os.environ.setdefault("DB_ENGINE", "django.db.backends.mysql")
-os.environ.setdefault("DB_NAME", "storefront3")
-os.environ.setdefault("DB_USER", "storefront3")
-os.environ.setdefault("DB_PASSWORD", "rjcs_javac")
-os.environ.setdefault("DB_HOST", "localhost")
-os.environ.setdefault("DB_PORT", "3306")
+
+REDIS_URL = os.environ['REDIS_URL']
 
 
+
+CELERY_BROKER_URL = REDIS_URL
+
+
+CACHES = {
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": REDIS_URL,
+        "TIMEOUT": 5 * 60,
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    }
+}
+
+
+# DATABASES = {
+#     'default': dj_database_url.config()
+# }
+
+
+
+
+
+# DATABASES = 
 
 #    {
 #         'ENGINE': 'django.db.backends.mysql',

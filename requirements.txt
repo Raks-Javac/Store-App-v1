@@ -1,30 +1,52 @@
-# requirements.txt generated from Pipfile
+# requirements.txt for MySQL on Railway
 
-# Main packages
-django
-django-debug-toolbar
-mysqlclient
-djangorestframework
-drf-nested-routers
-django-filter
-djoser
-djangorestframework-simplejwt
-pillow
-django-cors-headers
-django-templated-mail
-redis
-celery
-flower
-django-silk
-django-redis
-whitenoise
-dotenv
-python-dotenv
-gunicorn
-drf-yasg
-drf-spectacular
-drf-spectacular-sidecar
+# Core Django
+django>=4.2,<5.0  # Pinned to LTS version for stability
+djangorestframework==3.14.0
 
+# MySQL connector (more reliable than mysqlclient for deployment)
+mysql-connector-python==8.1.0
+
+# Dev tools
+django-debug-toolbar==4.2.0
+
+# API extensions
+drf-nested-routers==0.93.4
+django-filter==23.5
+djoser==2.2.0
+djangorestframework-simplejwt==5.3.1
+
+# Media handling
+pillow==10.1.0
+
+# CORS and security
+django-cors-headers==4.3.1
+
+# Email
+django-templated-mail==1.1.1
+
+# Celery and Redis
+redis==5.0.1
+celery==5.3.6
+flower==2.0.1
+
+# Monitoring
+django-silk==5.0.0
+django-redis==5.4.0
+
+# Static files
+whitenoise==6.6.0
+
+# Environment
+python-dotenv==1.0.0
+
+# Production
+gunicorn==21.2.0
+
+# Documentation
+drf-yasg==1.21.7
+drf-spectacular==0.27.1
+drf-spectacular-sidecar==2023.9.1
 # Development packages (optional)
 # autopep8
 # pytest

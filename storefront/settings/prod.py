@@ -36,9 +36,11 @@ DATABASES = {
         'HOST': os.getenv('MYSQLHOST'),
         'PORT': os.getenv('MYSQLPORT'),
         'OPTIONS': {
-            'charset': 'utf8mb4',
-            'ssl_mode': 'REQUIRED'  # For Railway's MySQL
+            'autocommit': True,
+            'use_pure': True,  # Use pure Python implementation
+            'ssl_mode': 'REQUIRED'  # For Railway/cloud deployments
         }
+
     }
 }
 

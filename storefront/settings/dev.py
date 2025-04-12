@@ -1,9 +1,9 @@
 from .common import *
+
+
+
+from .common import *
 import os
-from dotenv import load_dotenv
-
-
-load_dotenv()
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -11,21 +11,38 @@ DEBUG = True
 
 SECRET_KEY = os.environ['SECRET_KEY']
 
- 
+
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
+# DATABASES = {
+#     'default':{
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': os.environ['MYSQL_DATABASE'],
+#         'HOST': os.environ['MYSQLHOST'],
+#         'USER': os.environ['MYSQLUSER'],
+#         'PASSWORD': os.environ['MYSQLPASSWORD'],
+#         'PORT': os.environ['MYSQLPORT'],  # Optional if default
+#     }
+# }
+
 DATABASES = {
-    'default': {
+   'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'storefront3',
-        'HOST': 'localhost',
-        'USER': 'root',
-        'PASSWORD': 'rjcs_javac'
+        'NAME': os.getenv('MYSQLDATABASE'),
+        'USER': os.getenv('MYSQLUSER'),
+        'PASSWORD': os.getenv('MYSQLPASSWORD'),
+        'HOST': os.getenv('MYSQLHOST'),
+        'PORT': os.getenv('MYSQLPORT'),
+        'OPTIONS': {
+            'autocommit': True,
+            'use_pure': True,  # Use pure Python implementation
+            'ssl_mode': 'REQUIRED'  # For Railway/cloud deployments
+        }
+
     }
 }
-
 
 
 REDIS_URL = os.environ['REDIS_URL']
@@ -47,7 +64,24 @@ CACHES = {
 }
 
 
+# DATABASES = {
+#     'default': dj_database_url.config()
+# }
 
 
-ALLOWED_HOSTS = []
+
+
+
+# DATABASES = 
+
+#    {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'storefront3',
+#         'HOST': 'localhost',
+#         'USER': 'root',
+#         'PASSWORD': 'rjcs_javac'
+#     }
+
+
+ALLOWED_HOSTS = ['store-app-v1.onrender.com', '*']
 

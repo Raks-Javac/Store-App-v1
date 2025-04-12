@@ -2224,3 +2224,5 @@ AssertionError: Incompatible AutoSchema used on View <class 'drf_spectacular.vie
 2025-04-12 00:32:32,082 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
 2025-04-12 00:32:32,160 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
 2025-04-12 00:32:53,803 (WARNING) - django.request - Not Found: /store/api/
+2025-04-12 19:24:42,614 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-12 19:24:42,782 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.

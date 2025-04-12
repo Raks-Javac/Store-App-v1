@@ -2242,3 +2242,20 @@ AssertionError: Incompatible AutoSchema used on View <class 'drf_spectacular.vie
 2025-04-12 18:54:44,459 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
 2025-04-12 18:55:42,839 (WARNING) - django.request - Not Found: /favicon.ico
 2025-04-12 18:56:35,859 (WARNING) - django.request - Not Found: /store/swagger/
+2025-04-12 19:04:21,273 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 19:04:37,540 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 19:05:20,555 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 19:14:47,143 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 19:16:10,672 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 19:17:35,659 (INFO) - django.utils.autoreload - /Users/mac/Movies/backend/t_3/storefront3/store/models.py changed, reloading.
+2025-04-12 19:17:36,486 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-12 19:17:38,671 (INFO) - django.utils.autoreload - /Users/mac/Movies/backend/t_3/storefront3/store/models.py changed, reloading.
+2025-04-12 19:17:39,113 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-12 19:19:20,240 (INFO) - django.utils.autoreload - /Users/mac/Movies/backend/t_3/storefront3/store/models.py changed, reloading.
+2025-04-12 19:19:20,810 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-12 19:19:20,907 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 19:19:29,315 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 19:20:03,924 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 19:20:18,007 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 19:20:30,716 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-12 19:20:30,831 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.

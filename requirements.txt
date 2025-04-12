@@ -1,14 +1,12 @@
-# requirements.txt for MySQL on Railway
-
-# Core Django
-django>=4.2,<5.0  # Pinned to LTS version for stability
+# Core dependencies
+setuptools==69.2.0  # Explicitly include setuptools
+django==4.2.11  # Using LTS version
 djangorestframework==3.14.0
-
-# MySQL connector (more reliable than mysqlclient for deployment)
 mysql-connector-python==8.1.0
 
-# Dev tools
-django-debug-toolbar==4.2.0
+# Development/profiling tools (remove these for production!)
+# django-debug-toolbar==4.2.0
+# django-silk==5.0.0  # Remove from production!
 
 # API extensions
 drf-nested-routers==0.93.4
@@ -16,31 +14,15 @@ django-filter==23.5
 djoser==2.2.0
 djangorestframework-simplejwt==5.3.1
 
-# Media handling
+# Other production dependencies
 pillow==10.1.0
-
-# CORS and security
 django-cors-headers==4.3.1
-
-# Email
 django-templated-mail==1.1.1
-
-# Celery and Redis
 redis==5.0.1
 celery==5.3.6
-flower==2.0.1
-
-# Monitoring
-django-silk==5.0.0
 django-redis==5.4.0
-
-# Static files
 whitenoise==6.6.0
-
-# Environment
 python-dotenv==1.0.0
-
-# Production
 gunicorn==21.2.0
 
 # Documentation

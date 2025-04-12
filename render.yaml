@@ -29,4 +29,3 @@ services:
 databases:
   - name: storefront3
     plan: free
-    engine: mysql

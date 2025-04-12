@@ -49,7 +49,6 @@ class ProductImage(models.Model):
         upload_to='store/images',
         validators=[validate_file_size]
                               )
-    id = models.UUIDField(default=uuid4, primary_key=True)
 
 
 class Customer(models.Model):

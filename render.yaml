@@ -1,0 +1,32 @@
+# render.yaml
+
+services:
+  - type: web
+    name: storefront-web
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn storefront.wsgi
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.7
+      - key: DJANGO_SETTINGS_MODULE
+        value: storefront.settings
+    healthCheckPath: /health/
+    plan: free
+
+  - type: worker
+    name: storefront-worker
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: celery -A storefront worker
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.7
+      - key: DJANGO_SETTINGS_MODULE
+        value: storefront.settings
+    plan: free
+
+databases:
+  - name: storefront-db
+    plan: free
+    engine: postgres

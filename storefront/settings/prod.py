@@ -28,5 +28,5 @@ DATABASES = {
 }
 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['store-app-v1.onrender.com']
 

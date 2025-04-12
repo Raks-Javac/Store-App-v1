@@ -28,22 +28,18 @@ SECRET_KEY = os.environ['SECRET_KEY']
 # }
 
 DATABASES = {
-   'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': os.getenv('MYSQLDATABASE'),
-        'USER': os.getenv('MYSQLUSER'),
-        'PASSWORD': os.getenv('MYSQLPASSWORD'),
-        'HOST': os.getenv('MYSQLHOST'),
-        'PORT': os.getenv('MYSQLPORT'),
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': os.getenv('PGDATABASE'),
+        'USER': os.getenv('PGUSER'),
+        'PASSWORD': os.getenv('PGPASSWORD'),
+        'HOST': os.getenv('PGHOST'),
+        'PORT': os.getenv('PGPORT'),
         'OPTIONS': {
-            'autocommit': True,
-            'use_pure': True,  # Use pure Python implementation
-            'ssl_mode': 'REQUIRED'  # For Railway/cloud deployments
+            'sslmode': 'require',  # Similar to MySQL's ssl_mode
         }
-
     }
 }
-
 
 REDIS_URL = os.environ['REDIS_URL']
 

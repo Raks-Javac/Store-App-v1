@@ -4,7 +4,7 @@ from .common import *
 
 from .common import *
 import os
-
+import dj_database_url
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -18,15 +18,17 @@ SECRET_KEY = os.environ['SECRET_KEY']
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 DATABASES = {
-    'default':{
-                'ENGINE': os.getenv('DB_ENGINE', 'django.db.backends.mysql'),
-        'NAME': os.getenv('DB_NAME'),
-        'HOST': os.getenv('DB_HOST', 'localhost'),
-        'USER': os.getenv('DB_USER'),
-        'PASSWORD': os.getenv('DB_PASSWORD'),
-        'PORT': os.getenv('DB_PORT', '3306'),  # Optional if default
-    }
+    'default':dj_database_url.config()
 }
+
+os.environ.setdefault("DB_ENGINE", "django.db.backends.mysql")
+os.environ.setdefault("DB_NAME", "storefront3")
+os.environ.setdefault("DB_USER", "storefront3")
+os.environ.setdefault("DB_PASSWORD", "rjcs_javac")
+os.environ.setdefault("DB_HOST", "localhost")
+os.environ.setdefault("DB_PORT", "3306")
+
+
 
 #    {
 #         'ENGINE': 'django.db.backends.mysql',
@@ -37,5 +39,5 @@ DATABASES = {
 #     }
 
 
-ALLOWED_HOSTS = ['store-app-v1.onrender.com']
+ALLOWED_HOSTS = ['store-app-v1.onrender.com', '*']
 

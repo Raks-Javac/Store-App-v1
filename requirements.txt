@@ -3,7 +3,7 @@ setuptools==69.2.0  # Explicitly include setuptools
 django==4.2.11  # Using LTS version
 djangorestframework==3.14.0
 mysql-connector-python==8.1.0
-mysqlclient
+
 
 # Development/profiling tools (remove these for production!)
 django-debug-toolbar==4.2.0

@@ -36,7 +36,7 @@ INSTALLED_APPS = [
     'django_filters',
     'rest_framework',
     'djoser',
-    'silk',
+    # 'silk',
     'playground',
     'debug_toolbar',
     'store',
@@ -60,7 +60,6 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
   
-    
 ]
 
 # if DEBUG:  

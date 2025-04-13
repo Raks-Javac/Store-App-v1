@@ -2261,3 +2261,93 @@ AssertionError: Incompatible AutoSchema used on View <class 'drf_spectacular.vie
 2025-04-12 19:20:30,831 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
 2025-04-12 19:22:10,740 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
 2025-04-12 19:22:35,132 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 19:44:40,506 (WARNING) - django.request - Not Found: /favicon.ico
+2025-04-12 19:44:43,532 (WARNING) - django.request - Not Found: /favicon.ico
+2025-04-12 19:52:10,136 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 19:53:29,474 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 19:54:52,027 (INFO) - django.utils.autoreload - /Users/mac/Movies/backend/t_3/storefront3/storefront/settings/dev.py changed, reloading.
+2025-04-12 19:54:52,780 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-12 19:54:52,872 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 19:55:00,718 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 20:00:29,233 (INFO) - django.utils.autoreload - /Users/mac/Movies/backend/t_3/storefront3/storefront/settings/dev.py changed, reloading.
+2025-04-12 20:00:30,015 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-12 20:00:30,164 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 20:00:34,550 (INFO) - django.utils.autoreload - /Users/mac/Movies/backend/t_3/storefront3/storefront/settings/dev.py changed, reloading.
+2025-04-12 20:00:34,976 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-12 20:00:35,147 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 20:00:37,397 (INFO) - django.utils.autoreload - /Users/mac/Movies/backend/t_3/storefront3/storefront/settings/dev.py changed, reloading.
+2025-04-12 20:00:37,845 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-12 20:00:37,908 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 20:00:43,319 (INFO) - django.utils.autoreload - /Users/mac/Movies/backend/t_3/storefront3/storefront/settings/dev.py changed, reloading.
+2025-04-12 20:00:43,771 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-12 20:00:43,831 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 20:01:00,787 (INFO) - django.utils.autoreload - /Users/mac/Movies/backend/t_3/storefront3/storefront/settings/dev.py changed, reloading.
+2025-04-12 20:01:01,454 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-12 20:01:01,547 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 20:01:28,912 (INFO) - django.utils.autoreload - /Users/mac/Movies/backend/t_3/storefront3/storefront/settings/dev.py changed, reloading.
+2025-04-12 20:01:29,490 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-12 20:01:29,575 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 20:02:29,192 (INFO) - django.utils.autoreload - /Users/mac/Movies/backend/t_3/storefront3/storefront/settings/dev.py changed, reloading.
+2025-04-12 20:02:29,804 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-12 20:02:29,896 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 20:04:16,188 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 20:04:31,826 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 20:05:03,956 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 20:06:08,872 (INFO) - django.utils.autoreload - /Users/mac/Movies/backend/t_3/storefront3/storefront/settings/dev.py changed, reloading.
+2025-04-12 20:06:09,556 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-12 20:06:09,657 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 20:06:14,595 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 20:06:34,754 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 20:06:43,968 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 20:07:02,833 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 20:13:36,485 (INFO) - django.utils.autoreload - /Users/mac/Movies/backend/t_3/storefront3/storefront/settings/dev.py changed, reloading.
+2025-04-12 20:13:37,235 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-12 20:13:37,324 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 20:13:49,169 (INFO) - django.utils.autoreload - /Users/mac/Movies/backend/t_3/storefront3/storefront/settings/dev.py changed, reloading.
+2025-04-12 20:13:49,762 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-12 20:13:53,153 (INFO) - django.utils.autoreload - /Users/mac/Movies/backend/t_3/storefront3/storefront/settings/dev.py changed, reloading.
+2025-04-12 20:13:53,630 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-12 20:13:53,699 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 20:13:58,091 (INFO) - django.utils.autoreload - /Users/mac/Movies/backend/t_3/storefront3/storefront/settings/dev.py changed, reloading.
+2025-04-12 20:13:58,567 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-12 20:13:59,757 (INFO) - django.utils.autoreload - /Users/mac/Movies/backend/t_3/storefront3/storefront/settings/dev.py changed, reloading.
+2025-04-12 20:14:00,124 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-12 20:14:00,200 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 20:14:05,586 (INFO) - django.utils.autoreload - /Users/mac/Movies/backend/t_3/storefront3/storefront/settings/dev.py changed, reloading.
+2025-04-12 20:14:06,133 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-12 20:14:06,230 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 20:14:07,468 (INFO) - django.utils.autoreload - /Users/mac/Movies/backend/t_3/storefront3/storefront/settings/dev.py changed, reloading.
+2025-04-12 20:14:07,924 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-12 20:14:07,988 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 20:14:15,993 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 20:14:46,178 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 20:14:57,230 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 20:15:05,543 (INFO) - django.utils.autoreload - /Users/mac/Movies/backend/t_3/storefront3/storefront/settings/dev.py changed, reloading.
+2025-04-12 20:15:06,183 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-12 20:15:06,279 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 20:15:15,867 (INFO) - django.utils.autoreload - /Users/mac/Movies/backend/t_3/storefront3/storefront/settings/dev.py changed, reloading.
+2025-04-12 20:15:16,497 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-12 20:15:16,588 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 20:15:17,814 (INFO) - django.utils.autoreload - /Users/mac/Movies/backend/t_3/storefront3/storefront/settings/dev.py changed, reloading.
+2025-04-12 20:15:18,250 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-12 20:15:18,320 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 20:15:21,531 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 20:15:32,032 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 20:17:27,264 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 20:17:41,906 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 20:18:37,812 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 20:19:13,405 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 20:20:32,953 (INFO) - django.utils.autoreload - /Users/mac/Movies/backend/t_3/storefront3/storefront/settings/dev.py changed, reloading.
+2025-04-12 20:20:33,698 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-12 20:20:33,802 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 20:20:35,056 (INFO) - django.utils.autoreload - /Users/mac/Movies/backend/t_3/storefront3/storefront/settings/dev.py changed, reloading.
+2025-04-12 20:20:35,571 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-12 20:20:35,655 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-12 20:20:38,957 (INFO) - django.utils.autoreload - /Users/mac/Movies/backend/t_3/storefront3/storefront/settings/dev.py changed, reloading.
+2025-04-13 10:02:19,610 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-13 10:43:30,532 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-13 10:48:03,892 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-13 11:10:00,811 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-13 11:10:25,289 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-13 11:10:41,845 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-13 11:36:11,432 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.

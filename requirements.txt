@@ -72,7 +72,7 @@ wcwidth==0.2.13
 whitenoise==6.9.0
 django-silk==5.1.0
 psycopg2-binary
-
+python-decouple
 
 
 # Dev dependencies

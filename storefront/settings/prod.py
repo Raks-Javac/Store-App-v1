@@ -4,7 +4,8 @@ from .common import *
 
 from .common import *
 import os
-
+import dj_database_url
+from decouple import config
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -12,34 +13,11 @@ DEBUG = False
 SECRET_KEY = os.environ['SECRET_KEY']
 
 
-
-# Database
-# https://docs.djangoproject.com/en/3.2/ref/settings/#databases
-
-# DATABASES = {
-#     'default':{
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': os.environ['MYSQL_DATABASE'],
-#         'HOST': os.environ['MYSQLHOST'],
-#         'USER': os.environ['MYSQLUSER'],
-#         'PASSWORD': os.environ['MYSQLPASSWORD'],
-#         'PORT': os.environ['MYSQLPORT'],  # Optional if default
-#     }
-# }
-
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.getenv('PGDATABASE'),
-        'USER': os.getenv('PGUSER'),
-        'PASSWORD': os.getenv('PGPASSWORD'),
-        'HOST': os.getenv('PGHOST'),
-        'PORT': os.getenv('PGPORT'),
-        'OPTIONS': {
-            'sslmode': 'require',  # Similar to MySQL's ssl_mode
-        }
-    }
+    'default': dj_database_url.parse(config('DATABASE_URL'))
 }
+
+
 
 REDIS_URL = os.environ['REDIS_URL']
 
@@ -60,11 +38,6 @@ CACHES = {
 }
 
 
-# DATABASES = {
-#     'default': dj_database_url.config()
-# }
-
-
 
 
 
@@ -79,5 +52,5 @@ CACHES = {
 #     }
 
 
-ALLOWED_HOSTS = ['store-app-v1.onrender.com', '*']
+ALLOWED_HOSTS = ['store-app-v1.onrender.com', 'oneshop.up.railway.app']
 

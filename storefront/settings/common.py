@@ -62,8 +62,7 @@ MIDDLEWARE = [
   
 ]
 
-# if DEBUG:  
-#     MIDDLEWARE += ['silk.middleware.SilkyMiddleware']
+
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:8080",
@@ -224,7 +223,8 @@ LOGGING = {
         }
     }
 }
-
+# if DEBUG:  
+#     MIDDLEWARE += ['silk.middleware.SilkyMiddleware']
 
 SPECTACULAR_SETTINGS = {
     'TITLE': 'Store API v1',

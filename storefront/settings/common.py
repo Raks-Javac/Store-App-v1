@@ -71,6 +71,11 @@ CORS_ALLOWED_ORIGINS = [
     "https://oneshop.up.railway.app"
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://oneshop.up.railway.app"
+]
+
+
 INTERNAL_IPS = [
     # ...
     '127.0.0.1',

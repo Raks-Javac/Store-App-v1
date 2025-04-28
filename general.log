@@ -2351,3 +2351,67 @@ AssertionError: Incompatible AutoSchema used on View <class 'drf_spectacular.vie
 2025-04-13 11:10:25,289 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
 2025-04-13 11:10:41,845 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
 2025-04-13 11:36:11,432 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-28 16:55:06,579 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-28 16:55:15,444 (ERROR) - django.security.DisallowedHost - Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/Users/mac/.local/share/virtualenvs/storefront3-7A2ZaXMV/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/mac/.local/share/virtualenvs/storefront3-7A2ZaXMV/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/Users/mac/.local/share/virtualenvs/storefront3-7A2ZaXMV/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/Users/mac/.local/share/virtualenvs/storefront3-7A2ZaXMV/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2025-04-28 16:55:15,512 (WARNING) - django.request - Bad Request: /
+2025-04-28 16:55:15,833 (ERROR) - django.security.DisallowedHost - Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/Users/mac/.local/share/virtualenvs/storefront3-7A2ZaXMV/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/mac/.local/share/virtualenvs/storefront3-7A2ZaXMV/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/Users/mac/.local/share/virtualenvs/storefront3-7A2ZaXMV/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/Users/mac/.local/share/virtualenvs/storefront3-7A2ZaXMV/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2025-04-28 16:55:15,842 (WARNING) - django.request - Bad Request: /favicon.ico
+2025-04-28 16:55:24,134 (ERROR) - django.security.DisallowedHost - Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/Users/mac/.local/share/virtualenvs/storefront3-7A2ZaXMV/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/mac/.local/share/virtualenvs/storefront3-7A2ZaXMV/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/Users/mac/.local/share/virtualenvs/storefront3-7A2ZaXMV/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/Users/mac/.local/share/virtualenvs/storefront3-7A2ZaXMV/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2025-04-28 16:55:24,146 (WARNING) - django.request - Bad Request: /store/api/docs/
+2025-04-28 16:55:40,321 (ERROR) - django.security.DisallowedHost - Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/Users/mac/.local/share/virtualenvs/storefront3-7A2ZaXMV/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/mac/.local/share/virtualenvs/storefront3-7A2ZaXMV/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/Users/mac/.local/share/virtualenvs/storefront3-7A2ZaXMV/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/Users/mac/.local/share/virtualenvs/storefront3-7A2ZaXMV/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2025-04-28 16:55:40,357 (WARNING) - django.request - Bad Request: /store/orders/
+2025-04-28 16:55:47,204 (ERROR) - django.security.DisallowedHost - Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/Users/mac/.local/share/virtualenvs/storefront3-7A2ZaXMV/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/mac/.local/share/virtualenvs/storefront3-7A2ZaXMV/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/Users/mac/.local/share/virtualenvs/storefront3-7A2ZaXMV/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/Users/mac/.local/share/virtualenvs/storefront3-7A2ZaXMV/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2025-04-28 16:55:47,230 (WARNING) - django.request - Bad Request: /admin/
+2025-04-28 16:56:32,003 (INFO) - django.utils.autoreload - /Users/mac/Movies/backend/t_3/storefront3/storefront/settings/prod.py changed, reloading.
+2025-04-28 16:56:32,724 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-28 16:56:43,102 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader

@@ -75,11 +75,3 @@ psycopg2-binary
 python-decouple
 
 
-# Dev dependencies
-autopep8
-pytest
-pytest-django
-pytest-watch
-model-bakery
-locust
-django-silk

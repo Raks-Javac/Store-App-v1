@@ -7,6 +7,7 @@ from decouple import config
 import dj_database_url
 
 SECRET_KEY = config('SECRET_KEY')
+REDIS_URL = config('REDIS_URL')
 DEBUG = True
 
 
@@ -18,7 +19,7 @@ DATABASES = {
     'default': dj_database_url.parse(config('DATABASE_URL'))
 }
 
-REDIS_URL = os.environ['REDIS_URL']
+
 
 
 
@@ -56,5 +57,5 @@ CACHES = {
 #     }
 
 
-ALLOWED_HOSTS = ['store-app-v1.onrender.com', 'oneshop.up.railway.app']
+ALLOWED_HOSTS = ['store-app-v1.onrender.com', 'oneshop.up.railway.app','127.0.0.1']
 

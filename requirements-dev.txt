@@ -1,0 +1,10 @@
+-r requirements.txt
+
+# Dev dependencies
+autopep8
+pytest
+pytest-django
+pytest-watch
+model-bakery
+locust
+django-silk

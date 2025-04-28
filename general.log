@@ -2415,3 +2415,4 @@ django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000
 2025-04-28 16:56:32,003 (INFO) - django.utils.autoreload - /Users/mac/Movies/backend/t_3/storefront3/storefront/settings/prod.py changed, reloading.
 2025-04-28 16:56:32,724 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
 2025-04-28 16:56:43,102 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-28 16:58:24,774 (INFO) - django.utils.autoreload - /Users/mac/Movies/backend/t_3/storefront3/storefront/settings/prod.py changed, reloading.

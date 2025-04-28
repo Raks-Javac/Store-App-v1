@@ -11,7 +11,7 @@ from decouple import config
 DEBUG = False
 
 SECRET_KEY = os.environ['SECRET_KEY']
-# REDIS_URL = os.environ['REDIS_URL']
+REDIS_URL = os.environ['REDIS_URL']
 
 DATABASES = {
     'default': dj_database_url.parse(config('DATABASE_URL'))
@@ -23,7 +23,7 @@ DATABASES = {
 
 
 
-# CELERY_BROKER_URL = REDIS_URL
+CELERY_BROKER_URL = REDIS_URL
 
 
 # CACHES = {

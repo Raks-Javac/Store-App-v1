@@ -5,10 +5,10 @@ import os
 
 from decouple import config
 import dj_database_url
-
-SECRET_KEY = config('SECRET_KEY')
-REDIS_URL = config('REDIS_URL')
 DEBUG = True
+SECRET_KEY = config('SECRET_KEY')
+# REDIS_URL = os.environ['REDIS_URL']
+
 
 
 
@@ -23,19 +23,19 @@ DATABASES = {
 
 
 
-CELERY_BROKER_URL = REDIS_URL
+# CELERY_BROKER_URL = REDIS_URL
 
 
-CACHES = {
-    "default": {
-        "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": REDIS_URL,
-        "TIMEOUT": 5 * 60,
-        "OPTIONS": {
-            "CLIENT_CLASS": "django_redis.client.DefaultClient",
-        }
-    }
-}
+# CACHES = {
+#     "default": {
+#         "BACKEND": "django_redis.cache.RedisCache",
+#         "LOCATION": REDIS_URL,
+#         "TIMEOUT": 5 * 60,
+#         "OPTIONS": {
+#             "CLIENT_CLASS": "django_redis.client.DefaultClient",
+#         }
+#     }
+# }
 
 
 # DATABASES = {

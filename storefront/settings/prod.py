@@ -11,7 +11,7 @@ from decouple import config
 DEBUG = False
 
 SECRET_KEY = os.environ['SECRET_KEY']
-REDIS_URL = os.environ['REDIS_URL']
+
 
 DATABASES = {
     'default': dj_database_url.parse(config('DATABASE_URL'))
@@ -19,23 +19,23 @@ DATABASES = {
 
 
 
-
+REDIS_URL = os.environ['REDIS_URL']
 
 
 
 CELERY_BROKER_URL = REDIS_URL
 
 
-# CACHES = {
-#     "default": {
-#         "BACKEND": "django_redis.cache.RedisCache",
-#         "LOCATION": REDIS_URL,
-#         "TIMEOUT": 5 * 60,
-#         "OPTIONS": {
-#             "CLIENT_CLASS": "django_redis.client.DefaultClient",
-#         }
-#     }
-# }
+CACHES = {
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": REDIS_URL,
+        "TIMEOUT": 5 * 60,
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    }
+}
 
 
 
@@ -52,5 +52,5 @@ CELERY_BROKER_URL = REDIS_URL
 #     }
 
 
-ALLOWED_HOSTS = ['store-app-v1.onrender.com', 'oneshop.up.railway.app','127.0.0.1']
+ALLOWED_HOSTS = ['store-app-v1.onrender.com', 'oneshop.up.railway.app']
 

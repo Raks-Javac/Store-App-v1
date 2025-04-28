@@ -2416,3 +2416,25 @@ django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000
 2025-04-28 16:56:32,724 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
 2025-04-28 16:56:43,102 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
 2025-04-28 16:58:24,774 (INFO) - django.utils.autoreload - /Users/mac/Movies/backend/t_3/storefront3/storefront/settings/prod.py changed, reloading.
+2025-04-28 17:06:46,808 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-28 17:08:56,972 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-28 17:08:57,069 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-28 17:10:14,635 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-28 17:20:05,881 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-28 17:20:05,960 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-28 17:20:22,259 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-28 17:20:35,534 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-28 17:21:40,560 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-28 17:22:22,459 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-28 17:22:22,552 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-28 17:24:13,984 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-28 17:24:31,710 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-28 17:26:01,667 (INFO) - django.utils.autoreload - /Users/mac/Movies/backend/t_3/storefront3/store/urls.py changed, reloading.
+2025-04-28 17:26:02,188 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-28 17:26:46,573 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-28 17:26:46,663 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-28 17:27:36,670 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-28 17:28:37,095 (WARNING) - django.request - Not Found: /store/swagger/
+2025-04-28 17:28:45,832 (WARNING) - django.request - Not Found: /store/swagger/docs
+2025-04-28 17:28:53,320 (WARNING) - django.request - Not Found: /swagger/
+2025-04-28 17:29:12,931 (WARNING) - django.request - Not Found: /store/swagger/api

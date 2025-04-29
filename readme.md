@@ -1,4 +1,10 @@
 Store API Documentation 
+
+=====================
+Link to swagger:
+gger:  IP_ADDRESS:8000/api/docs
+=====================
+POINT THE DB SETTINGS TO YOUR POSTGRES DB
 ======================
 This is a store app API built with Django REST Framework with the following features:
 * User authentication and authorization

@@ -46,6 +46,11 @@ INSTALLED_APPS = [
     'corsheaders',
     'drf_yasg',
     'drf_spectacular',
+    'customers',
+    'orders',
+    'payments',
+    'cart'
+
 ]
 
 MIDDLEWARE = [

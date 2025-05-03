@@ -30,7 +30,7 @@ Getting Started
 To get started with the store app API, follow these steps:
 1.  Clone the repository:
     ```
-    git clone URL_ADDRESS.com/your-username/store-api.git
+    git clone [https://github.com/Raks-Javac/Store-App-v1.git]
     ```
 2.  Install the dependencies for debug mode:       
     ```
